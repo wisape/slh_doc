@@ -72,14 +72,19 @@ import sphinx_rtd_theme
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'sphinx_rtd_theme'
+html_theme = 'sphinx_materialdesign_theme'
 html_static_path = ['_static']
 html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 #html_logo = 'img/slh.png'
-html_theme_options = {
-        'logo_only': True,
-        'display_version': False,
-}
+#'header_links' : [
+#        ('Home', 'index', False, 'home'),
+#        ("ExternalLink", "http://example.com", True, 'launch'),
+#        ("NoIconLink", "http://example.com", True, ''),
+#        ("GitHub", "https://github.com/myyasuda/sphinx_materialdesign_theme",
+#            True, 'link')
+#]
+#'primary_color': 'teal',
+#'accent_color': 'blue',
 
 
 # Theme options are theme-specific and customize the look and feel of a theme
@@ -177,3 +182,12 @@ epub_title = project
 
 # A list of files that should not be packed into the epub file.
 epub_exclude_files = ['search.html']
+extensions = ['sphinx.ext.mathjax']
+
+math_number_all = True
+# 设置公式和图片编号依赖于章节
+#numfig = True
+#math_numfig = True
+#math_eqref_format = 'formula. {number}'
+# numfig_format = 'Figure. %s'
+# numfig_secnum_depth = 1
