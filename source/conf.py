@@ -69,6 +69,7 @@ pygments_style = None
 
 
 import sphinx_rtd_theme
+import sphinx_materialdesign_theme
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
