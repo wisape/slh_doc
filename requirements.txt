@@ -11,7 +11,6 @@ cryptography==2.1.4
 doc8==0.8.0
 docutils==0.14
 enum34==1.1.6
-futures==3.2.0
 idna==2.8
 imagesize==1.1.0
 ipaddress==1.0.17
