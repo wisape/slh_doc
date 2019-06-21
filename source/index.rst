@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-斯为数理化文档!
+斯为数理化文档
 ======================================
 
 .. toctree::
