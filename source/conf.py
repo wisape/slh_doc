@@ -76,7 +76,7 @@ import sphinx_materialdesign_theme
 html_theme = 'sphinx_materialdesign_theme'
 html_static_path = ['_static']
 html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
-#html_logo = 'img/slh.png'
+html_logo = 'img/slh.png'
 #'header_links' : [
 #        ('Home', 'index', False, 'home'),
 #        ("ExternalLink", "http://example.com", True, 'launch'),

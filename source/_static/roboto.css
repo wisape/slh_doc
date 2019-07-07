@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('font/Roboto/Roboto-Regular.eot');
+    src: url('font/Roboto/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+         url('font/Roboto/Roboto-Regular.woff') format('woff'),
+         url('font/Roboto/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+img {
+    align-content: center;
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+
+.page-content, .page-content dd, .page-content dl, .page-content dt, .page-content ol, .page-content p, .page-content table, .page-content td, .page-content th, .page-content ul {
+    font-size: 1.2rem;
+}
